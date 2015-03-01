@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  indigolink
 //
-//  Created by Konstantinos Vlassis on 01/03/2015.
-//  Copyright (c) 2015 com. All rights reserved.
+//  Created by Konstantinos Vlassis on 2015/3/1.
+//  Copyright (c) 2015 Konstantinos Vlassis. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -17,7 +17,29 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSSetUncaughtExceptionHandler(&uncaughtExceptionHandler);
+    
+    [[UIApplication sharedApplication] registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:(UIUserNotificationTypeSound | UIUserNotificationTypeAlert | UIUserNotificationTypeBadge) categories:nil]];
+    [[UIApplication sharedApplication] registerForRemoteNotifications];
+    
+    [UIApplication sharedApplication].applicationIconBadgeNumber = 0;
+    
     return YES;
+}
+
+- (void)application:(UIApplication*)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData*)deviceToken
+{
+    NSLog(@"My token is: %@", deviceToken);
+}
+
+- (void)application:(UIApplication*)application didFailToRegisterForRemoteNotificationsWithError:(NSError*)error
+{
+    NSLog(@"Failed to get token, error: %@", error);
+}
+
+void uncaughtExceptionHandler(NSException *exception) {
+    NSLog(@"CRASH: %@", exception);
+    NSLog(@"Stack trace: %@", [exception callStackSymbols]);
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -32,6 +54,7 @@
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+    [UIApplication sharedApplication].applicationIconBadgeNumber = 0;
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
@@ -51,7 +74,7 @@
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 
 - (NSURL *)applicationDocumentsDirectory {
-    // The directory the application uses to store the Core Data store file. This code uses a directory named "com.vlassis.indigolink" in the application's documents directory.
+    // The directory the application uses to store the Core Data store file. This code uses a directory named "Konstantinos-Vlassis.indigolink" in the application's documents directory.
     return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
 }
 

@@ -1,4 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="14C109" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="IndigoDevices" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isOn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastChangedRFC822" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="meterValue" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sensorValue" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typeSupportsOnOff" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="IndigoServerSettings" syncable="YES">
+        <attribute name="server_ip" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="server_password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="server_port" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="server_username" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="IndigoDevices" positionX="-63" positionY="-18" width="128" height="178"/>
+        <element name="IndigoServerSettings" positionX="-54" positionY="-9" width="128" height="103"/>
+    </elements>
 </model>

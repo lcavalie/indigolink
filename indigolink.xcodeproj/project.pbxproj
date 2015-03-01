@@ -7,14 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1310FE001AA341EB002EA649 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1310FDFF1AA341EB002EA649 /* Main.storyboard */; };
+		13BBBC0A1AA34BCB00E029A4 /* motionsensor.png in Resources */ = {isa = PBXBuildFile; fileRef = 13BBBC091AA34BCB00E029A4 /* motionsensor.png */; };
+		13BBBC0C1AA34C2600E029A4 /* lightbulb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13BBBC0B1AA34C2600E029A4 /* lightbulb.jpg */; };
 		13CF3C941AA332B400E1EDBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CF3C931AA332B400E1EDBE /* main.m */; };
 		13CF3C971AA332B400E1EDBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CF3C961AA332B400E1EDBE /* AppDelegate.m */; };
 		13CF3C9A1AA332B400E1EDBE /* indigolink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 13CF3C981AA332B400E1EDBE /* indigolink.xcdatamodeld */; };
 		13CF3C9D1AA332B400E1EDBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CF3C9C1AA332B400E1EDBE /* ViewController.m */; };
-		13CF3CA01AA332B400E1EDBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13CF3C9E1AA332B400E1EDBE /* Main.storyboard */; };
 		13CF3CA21AA332B400E1EDBE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13CF3CA11AA332B400E1EDBE /* Images.xcassets */; };
-		13CF3CA51AA332B400E1EDBE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13CF3CA31AA332B400E1EDBE /* LaunchScreen.xib */; };
 		13CF3CB11AA332B400E1EDBE /* indigolinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CF3CB01AA332B400E1EDBE /* indigolinkTests.m */; };
+		13CF3CC11AA333CF00E1EDBE /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CF3CC01AA333CF00E1EDBE /* SRWebSocket.m */; };
+		13CF3CCB1AA3340800E1EDBE /* luminancesensor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13CF3CC41AA3340800E1EDBE /* luminancesensor.jpg */; };
+		13CF3CCD1AA3340800E1EDBE /* smokesensor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13CF3CC61AA3340800E1EDBE /* smokesensor.jpg */; };
+		13CF3CCE1AA3340800E1EDBE /* temperaturesensor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13CF3CC71AA3340800E1EDBE /* temperaturesensor.jpg */; };
+		13CF3CCF1AA3340800E1EDBE /* uksocket.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13CF3CC81AA3340800E1EDBE /* uksocket.jpg */; };
+		13CF3CD01AA3340800E1EDBE /* windowsensor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13CF3CC91AA3340800E1EDBE /* windowsensor.jpg */; };
+		13CF3CD21AA3343B00E1EDBE /* AEXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CF3CD11AA3343B00E1EDBE /* AEXML.swift */; };
+		13CF3CD61AA3345F00E1EDBE /* DeviceCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CF3CD31AA3345F00E1EDBE /* DeviceCustomCell.swift */; };
+		13CF3CD71AA3345F00E1EDBE /* DeviceGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CF3CD41AA3345F00E1EDBE /* DeviceGroups.swift */; };
+		13CF3CD81AA3345F00E1EDBE /* DeviceListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CF3CD51AA3345F00E1EDBE /* DeviceListTableViewController.swift */; };
+		13CF3CDA1AA3347900E1EDBE /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CF3CD91AA3347900E1EDBE /* Misc.swift */; };
+		13CF3CDE1AA3348600E1EDBE /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CF3CDB1AA3348600E1EDBE /* SettingsController.swift */; };
+		13CF3CDF1AA3348600E1EDBE /* SettingsCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CF3CDC1AA3348600E1EDBE /* SettingsCustomCell.swift */; };
+		13CF3CE01AA3348600E1EDBE /* ShowGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CF3CDD1AA3348600E1EDBE /* ShowGraphViewController.swift */; };
+		13CF3CE31AA334B200E1EDBE /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CF3CE11AA334B200E1EDBE /* SwiftyJSON.swift */; };
+		13CF3CE41AA334B200E1EDBE /* SyncDevices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CF3CE21AA334B200E1EDBE /* SyncDevices.swift */; };
+		13CF3CE61AA337B800E1EDBE /* TelerikUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CF3CE51AA337B800E1EDBE /* TelerikUI.framework */; };
+		13CF3CE81AA337C200E1EDBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CF3CE71AA337C200E1EDBE /* UIKit.framework */; };
+		13CF3CEA1AA337CA00E1EDBE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CF3CE91AA337CA00E1EDBE /* CoreGraphics.framework */; };
+		13CF3CEC1AA337F900E1EDBE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CF3CEB1AA337F900E1EDBE /* Security.framework */; };
+		13CF3CEE1AA3380200E1EDBE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CF3CED1AA3380200E1EDBE /* CFNetwork.framework */; };
+		13CF3CF01AA3380C00E1EDBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CF3CEF1AA3380C00E1EDBE /* Foundation.framework */; };
+		13CF3CF21AA3382900E1EDBE /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CF3CF11AA3382900E1EDBE /* libicucore.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +52,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1310FDFF1AA341EB002EA649 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		13BBBC091AA34BCB00E029A4 /* motionsensor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = motionsensor.png; sourceTree = "<group>"; };
+		13BBBC0B1AA34C2600E029A4 /* lightbulb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lightbulb.jpg; sourceTree = "<group>"; };
 		13CF3C8E1AA332B400E1EDBE /* indigolink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = indigolink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13CF3C921AA332B400E1EDBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13CF3C931AA332B400E1EDBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -36,12 +63,36 @@
 		13CF3C991AA332B400E1EDBE /* indigolink.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = indigolink.xcdatamodel; sourceTree = "<group>"; };
 		13CF3C9B1AA332B400E1EDBE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		13CF3C9C1AA332B400E1EDBE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		13CF3C9F1AA332B400E1EDBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		13CF3CA11AA332B400E1EDBE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		13CF3CA41AA332B400E1EDBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		13CF3CAA1AA332B400E1EDBE /* indigolinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = indigolinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13CF3CAF1AA332B400E1EDBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13CF3CB01AA332B400E1EDBE /* indigolinkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = indigolinkTests.m; sourceTree = "<group>"; };
+		13CF3CBA1AA3338D00E1EDBE /* indigolink-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "indigolink-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		13CF3CBE1AA333CF00E1EDBE /* SocketRocket-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-Prefix.pch"; sourceTree = "<group>"; };
+		13CF3CBF1AA333CF00E1EDBE /* SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebSocket.h; sourceTree = "<group>"; };
+		13CF3CC01AA333CF00E1EDBE /* SRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWebSocket.m; sourceTree = "<group>"; };
+		13CF3CC41AA3340800E1EDBE /* luminancesensor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = luminancesensor.jpg; sourceTree = "<group>"; };
+		13CF3CC61AA3340800E1EDBE /* smokesensor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smokesensor.jpg; sourceTree = "<group>"; };
+		13CF3CC71AA3340800E1EDBE /* temperaturesensor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = temperaturesensor.jpg; sourceTree = "<group>"; };
+		13CF3CC81AA3340800E1EDBE /* uksocket.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = uksocket.jpg; sourceTree = "<group>"; };
+		13CF3CC91AA3340800E1EDBE /* windowsensor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = windowsensor.jpg; sourceTree = "<group>"; };
+		13CF3CD11AA3343B00E1EDBE /* AEXML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AEXML.swift; sourceTree = "<group>"; };
+		13CF3CD31AA3345F00E1EDBE /* DeviceCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceCustomCell.swift; sourceTree = "<group>"; };
+		13CF3CD41AA3345F00E1EDBE /* DeviceGroups.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceGroups.swift; sourceTree = "<group>"; };
+		13CF3CD51AA3345F00E1EDBE /* DeviceListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceListTableViewController.swift; sourceTree = "<group>"; };
+		13CF3CD91AA3347900E1EDBE /* Misc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
+		13CF3CDB1AA3348600E1EDBE /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		13CF3CDC1AA3348600E1EDBE /* SettingsCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsCustomCell.swift; sourceTree = "<group>"; };
+		13CF3CDD1AA3348600E1EDBE /* ShowGraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowGraphViewController.swift; sourceTree = "<group>"; };
+		13CF3CE11AA334B200E1EDBE /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		13CF3CE21AA334B200E1EDBE /* SyncDevices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyncDevices.swift; sourceTree = "<group>"; };
+		13CF3CE51AA337B800E1EDBE /* TelerikUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TelerikUI.framework; path = Library/Frameworks/TelerikUI.framework; sourceTree = DEVELOPER_DIR; };
+		13CF3CE71AA337C200E1EDBE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		13CF3CE91AA337CA00E1EDBE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		13CF3CEB1AA337F900E1EDBE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		13CF3CED1AA3380200E1EDBE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		13CF3CEF1AA3380C00E1EDBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		13CF3CF11AA3382900E1EDBE /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +100,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13CF3CF21AA3382900E1EDBE /* libicucore.dylib in Frameworks */,
+				13CF3CF01AA3380C00E1EDBE /* Foundation.framework in Frameworks */,
+				13CF3CEE1AA3380200E1EDBE /* CFNetwork.framework in Frameworks */,
+				13CF3CEC1AA337F900E1EDBE /* Security.framework in Frameworks */,
+				13CF3CEA1AA337CA00E1EDBE /* CoreGraphics.framework in Frameworks */,
+				13CF3CE81AA337C200E1EDBE /* UIKit.framework in Frameworks */,
+				13CF3CE61AA337B800E1EDBE /* TelerikUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +123,13 @@
 		13CF3C851AA332B400E1EDBE = {
 			isa = PBXGroup;
 			children = (
+				13CF3CF11AA3382900E1EDBE /* libicucore.dylib */,
+				13CF3CEF1AA3380C00E1EDBE /* Foundation.framework */,
+				13CF3CED1AA3380200E1EDBE /* CFNetwork.framework */,
+				13CF3CEB1AA337F900E1EDBE /* Security.framework */,
+				13CF3CE91AA337CA00E1EDBE /* CoreGraphics.framework */,
+				13CF3CE71AA337C200E1EDBE /* UIKit.framework */,
+				13CF3CE51AA337B800E1EDBE /* TelerikUI.framework */,
 				13CF3C901AA332B400E1EDBE /* indigolink */,
 				13CF3CAD1AA332B400E1EDBE /* indigolinkTests */,
 				13CF3C8F1AA332B400E1EDBE /* Products */,
@@ -83,14 +148,26 @@
 		13CF3C901AA332B400E1EDBE /* indigolink */ = {
 			isa = PBXGroup;
 			children = (
+				13CF3CBA1AA3338D00E1EDBE /* indigolink-Bridging-Header.h */,
+				13CF3CD11AA3343B00E1EDBE /* AEXML.swift */,
+				13CF3CD31AA3345F00E1EDBE /* DeviceCustomCell.swift */,
+				13CF3CD41AA3345F00E1EDBE /* DeviceGroups.swift */,
+				13CF3CD51AA3345F00E1EDBE /* DeviceListTableViewController.swift */,
+				13CF3CD91AA3347900E1EDBE /* Misc.swift */,
+				13CF3CDB1AA3348600E1EDBE /* SettingsController.swift */,
+				13CF3CDC1AA3348600E1EDBE /* SettingsCustomCell.swift */,
+				13CF3CDD1AA3348600E1EDBE /* ShowGraphViewController.swift */,
+				13CF3CE11AA334B200E1EDBE /* SwiftyJSON.swift */,
+				13CF3CE21AA334B200E1EDBE /* SyncDevices.swift */,
+				1310FDFF1AA341EB002EA649 /* Main.storyboard */,
 				13CF3C951AA332B400E1EDBE /* AppDelegate.h */,
 				13CF3C961AA332B400E1EDBE /* AppDelegate.m */,
 				13CF3C9B1AA332B400E1EDBE /* ViewController.h */,
 				13CF3C9C1AA332B400E1EDBE /* ViewController.m */,
-				13CF3C9E1AA332B400E1EDBE /* Main.storyboard */,
 				13CF3CA11AA332B400E1EDBE /* Images.xcassets */,
-				13CF3CA31AA332B400E1EDBE /* LaunchScreen.xib */,
 				13CF3C981AA332B400E1EDBE /* indigolink.xcdatamodeld */,
+				13CF3CC21AA3340800E1EDBE /* images */,
+				13CF3CBD1AA333CF00E1EDBE /* SocketRocket */,
 				13CF3C911AA332B400E1EDBE /* Supporting Files */,
 			);
 			path = indigolink;
@@ -120,6 +197,30 @@
 				13CF3CAF1AA332B400E1EDBE /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13CF3CBD1AA333CF00E1EDBE /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				13CF3CBE1AA333CF00E1EDBE /* SocketRocket-Prefix.pch */,
+				13CF3CBF1AA333CF00E1EDBE /* SRWebSocket.h */,
+				13CF3CC01AA333CF00E1EDBE /* SRWebSocket.m */,
+			);
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
+		13CF3CC21AA3340800E1EDBE /* images */ = {
+			isa = PBXGroup;
+			children = (
+				13BBBC0B1AA34C2600E029A4 /* lightbulb.jpg */,
+				13BBBC091AA34BCB00E029A4 /* motionsensor.png */,
+				13CF3CC41AA3340800E1EDBE /* luminancesensor.jpg */,
+				13CF3CC61AA3340800E1EDBE /* smokesensor.jpg */,
+				13CF3CC71AA3340800E1EDBE /* temperaturesensor.jpg */,
+				13CF3CC81AA3340800E1EDBE /* uksocket.jpg */,
+				13CF3CC91AA3340800E1EDBE /* windowsensor.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,9 +303,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13CF3CA01AA332B400E1EDBE /* Main.storyboard in Resources */,
-				13CF3CA51AA332B400E1EDBE /* LaunchScreen.xib in Resources */,
+				13CF3CCB1AA3340800E1EDBE /* luminancesensor.jpg in Resources */,
+				13CF3CD01AA3340800E1EDBE /* windowsensor.jpg in Resources */,
+				13CF3CCF1AA3340800E1EDBE /* uksocket.jpg in Resources */,
+				13CF3CCE1AA3340800E1EDBE /* temperaturesensor.jpg in Resources */,
+				13BBBC0C1AA34C2600E029A4 /* lightbulb.jpg in Resources */,
 				13CF3CA21AA332B400E1EDBE /* Images.xcassets in Resources */,
+				13BBBC0A1AA34BCB00E029A4 /* motionsensor.png in Resources */,
+				1310FE001AA341EB002EA649 /* Main.storyboard in Resources */,
+				13CF3CCD1AA3340800E1EDBE /* smokesensor.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,10 +329,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13CF3CE41AA334B200E1EDBE /* SyncDevices.swift in Sources */,
+				13CF3CC11AA333CF00E1EDBE /* SRWebSocket.m in Sources */,
 				13CF3C9A1AA332B400E1EDBE /* indigolink.xcdatamodeld in Sources */,
 				13CF3C971AA332B400E1EDBE /* AppDelegate.m in Sources */,
+				13CF3CDA1AA3347900E1EDBE /* Misc.swift in Sources */,
 				13CF3C9D1AA332B400E1EDBE /* ViewController.m in Sources */,
+				13CF3CE31AA334B200E1EDBE /* SwiftyJSON.swift in Sources */,
+				13CF3CE01AA3348600E1EDBE /* ShowGraphViewController.swift in Sources */,
+				13CF3CDE1AA3348600E1EDBE /* SettingsController.swift in Sources */,
+				13CF3CD61AA3345F00E1EDBE /* DeviceCustomCell.swift in Sources */,
+				13CF3CD21AA3343B00E1EDBE /* AEXML.swift in Sources */,
+				13CF3CD71AA3345F00E1EDBE /* DeviceGroups.swift in Sources */,
 				13CF3C941AA332B400E1EDBE /* main.m in Sources */,
+				13CF3CD81AA3345F00E1EDBE /* DeviceListTableViewController.swift in Sources */,
+				13CF3CDF1AA3348600E1EDBE /* SettingsCustomCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,25 +364,6 @@
 			targetProxy = 13CF3CAB1AA332B400E1EDBE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		13CF3C9E1AA332B400E1EDBE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				13CF3C9F1AA332B400E1EDBE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		13CF3CA31AA332B400E1EDBE /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				13CF3CA41AA332B400E1EDBE /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		13CF3CB21AA332B400E1EDBE /* Debug */ = {
@@ -347,9 +446,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				INFOPLIST_FILE = indigolink/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-v",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "indigolink-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -357,9 +468,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				INFOPLIST_FILE = indigolink/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-v",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "indigolink-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -416,6 +538,7 @@
 				13CF3CB61AA332B400E1EDBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13CF3CB71AA332B400E1EDBE /* Build configuration list for PBXNativeTarget "indigolinkTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +547,7 @@
 				13CF3CB91AA332B400E1EDBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
